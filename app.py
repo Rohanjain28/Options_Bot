@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import websocket
 import json
 import threading
+import os
 
 # Your Deriv API Token
 DERIV_TOKEN = "PUT_YOUR_DERIV_API_TOKEN_HERE"
